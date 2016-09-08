@@ -21,28 +21,40 @@
 			</ul><!--end c-primary-nav__list-->
 		
 		</nav><!--end c-primary-nav-->
-		<form method="post" class="c-search-form">
+		<form method="post" class="input-group">
 			<label for="search" class="c-search-form__label is-vishidden">Search the site</label>
-			<input type="search" id="search" class="c-search-form__input" placeholder="Search the site" />
+			<input type="search" id="search" class="form-control" placeholder="Search the site" />
 		</form><!-- end c-search-form -->
 
 	</div><!-- end c-header__controls -->
 
 </header><!-- end c-header -->
 <main role="main">
-		<div class="alert alert--info ">
-			An alert is messaging that tells the user some information. Alerts can be error, warning, success, or info messages
+		<p class="lead"> Alerts</p>
+		<div class="alert alert-success" role="alert">
+		  <strong>Well done!</strong> You successfully read this important alert message.
 		</div>
-
+		<div class="alert alert-info" role="alert">
+		  <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+		</div>
+		<div class="alert alert-warning" role="alert">
+		  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+		</div>
+		<div class="alert alert-danger" role="alert">
+		  <strong>Oh snap!</strong> Change a few things up and try submitting again.
+		</div>
 
 	<div class="c-tile-grid">
 		<div class="c-tile-grid__inner l">
 	
 			<div class="c-tile-grid__primary">
 				<a href="#" class="c-block-tile c-block-tile--featured">
-						<progress class="c-progress" max="100" value="100">
+						<p class="lead">Progress Bar </p>
+						<div class="text-xs-center" id="example-caption-1"> Fearing Turtles&hellip;75%</div>
+						<progress class="progress" max="100" value="100" aria-describedby="example-caption-1">
 							<strong>Progress: 100%</strong>
-						</progress>					<span class="c-block-tile__value">4,500</span>	
+						</progress>
+					<span class="c-block-tile__value">4,500</span>	
 					<h2 class="c-block-tile__label">Feet of Elevation Gain</h2>
 				</a><!-- end c-block-tile -->
 				
@@ -52,36 +64,48 @@
 				<ul class="c-tile-list">
 					<li class="c-tile-list__item">
 						<a href="#" class="c-block-tile c-block-tile--">
-								<progress class="c-progress" max="100" value="20">
+								<p class="lead">Progress Bar </p>
+								<div class="text-xs-center" id="example-caption-1"> Fearing Turtles&hellip;75%</div>
+								<progress class="progress" max="100" value="20" aria-describedby="example-caption-1">
 									<strong>Progress: 20%</strong>
-								</progress>							<span class="c-block-tile__value">16</span>	
+								</progress>
+							<span class="c-block-tile__value">16</span>	
 							<h2 class="c-block-tile__label">National Parks</h2>
 						</a><!-- end c-block-tile -->
 						
 					</li>
 					<li class="c-tile-list__item">
 						<a href="#" class="c-block-tile c-block-tile--">
-								<progress class="c-progress" max="100" value="40">
+								<p class="lead">Progress Bar </p>
+								<div class="text-xs-center" id="example-caption-1"> Fearing Turtles&hellip;75%</div>
+								<progress class="progress" max="100" value="40" aria-describedby="example-caption-1">
 									<strong>Progress: 40%</strong>
-								</progress>							<span class="c-block-tile__value">500</span>	
+								</progress>
+							<span class="c-block-tile__value">500</span>	
 							<h2 class="c-block-tile__label">Hikes</h2>
 						</a><!-- end c-block-tile -->
 						
 					</li>
 					<li class="c-tile-list__item">
 						<a href="#" class="c-block-tile c-block-tile--">
-								<progress class="c-progress" max="100" value="60">
+								<p class="lead">Progress Bar </p>
+								<div class="text-xs-center" id="example-caption-1"> Fearing Turtles&hellip;75%</div>
+								<progress class="progress" max="100" value="60" aria-describedby="example-caption-1">
 									<strong>Progress: 60%</strong>
-								</progress>							<span class="c-block-tile__value">62,500</span>	
+								</progress>
+							<span class="c-block-tile__value">62,500</span>	
 							<h2 class="c-block-tile__label">Calories Burned</h2>
 						</a><!-- end c-block-tile -->
 						
 					</li>
 					<li class="c-tile-list__item">
 						<a href="#" class="c-block-tile c-block-tile--">
-								<progress class="c-progress" max="100" value="80">
+								<p class="lead">Progress Bar </p>
+								<div class="text-xs-center" id="example-caption-1"> Fearing Turtles&hellip;75%</div>
+								<progress class="progress" max="100" value="80" aria-describedby="example-caption-1">
 									<strong>Progress: 80%</strong>
-								</progress>							<span class="c-block-tile__value">94,300,843</span>	
+								</progress>
+							<span class="c-block-tile__value">94,300,843</span>	
 							<h2 class="c-block-tile__label">Steps</h2>
 						</a><!-- end c-block-tile -->
 						
@@ -237,8 +261,6 @@
 		
 			</ul><!--end c-footer-nav__list-->
 		
-		</nav><!--end c-footer-nav-->		<p class="c-footer__info">This is a demonstration of what's possible with <a href="http://patternlab.io" rel="external">Pattern Lab</a>. <a href="http://patternlab.io/download.html">Download Pattern Lab</a>, check out the <a href="http://patternlab.io/docs/">documentation</a>, or learn more about <a href="http://atomicdesign.bradfrost.com/">atomic design</a>.</p>
-		<p class="copyright">&copy; 2016 Division of Information Technology. All rights reserved.</p>
-	</div><!-- end l -->
+		</nav><!--end c-footer-nav-->	</div><!-- end l -->
 
 </footer><!-- end c-footer -->

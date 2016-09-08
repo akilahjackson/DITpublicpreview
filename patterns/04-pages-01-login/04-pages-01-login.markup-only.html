@@ -6,23 +6,34 @@
 
 		<div class="c-box__body">
 			<form class="c-form c-form--stacked" method="post" action="../../patterns/04-pages-02-dashboard/04-pages-02-dashboard.html">
-				<div class="c-field">
-					<label for="username" class="c-field__label">Username</label>
-					<input id="username" type="text" placeholder="Username or email address" value="" />
+				<div class="form-group row">
+					<label for="username" class="col-xs-2 col-form-label">Username</label>
+					<input class="form-control" id="username" type="text" placeholder="Username or email address" value="" />
 						<span class="c-field__note">Enter your username or email address</span>
 				
 				</div><!--end c-field-->
-				<div class="c-field">
-					<label for="password" class="c-field__label">Password</label>
-					<input id="password" type="password" placeholder="Password" value="" />
+				
+				<div class="form-group row">
+					<label for="password" class="col-xs-2 col-form-label">Password</label>
+					<input class="form-control" id="password" type="password" placeholder="Password" value="" />
 						<span class="c-field__note">Minimum of 6 characters. <a href='#'>Forgot password?</a></span>
 				
 				</div><!--end c-field-->
+				
 			
 			
 				<div class="c-form__actions">
-					<button class="c-btn ">Log Me In!</button>
-				</div>
+					<aside>
+					<p class="lead">Button Styles</p>
+					<ul>
+					<li><strong>Primary</strong> button class="btn btn-primary" <button type="button" class="btn btn-primary ">Log Me In!</button> </li>
+					<li><strong>Secondary</strong> button class="btn btn-secondary" <button type="button" class="btn btn-secondary ">Log Me In!</button> </li>
+					<li><strong>Success</strong> button class="btn btn-success" <button type="button" class="btn btn-success ">Log Me In!</button> </li>
+					<li><strong>Info</strong> button class="btn btn-info"<button type="button" class="btn btn-info ">Log Me In!</button> </li>
+					<li><strong>Warning</strong> button class="btn btn-warning"<button type="button" class="btn btn-warning ">Log Me In!</button></li>
+					<li><strong>Danger</strong> button class="btn btn-danger"<button type="button" class="btn btn-danger ">Log Me In!</button></li>
+					<li><strong>Link</strong> button class="btn btn-link" <button type="button" class="btn btn-link ">Log Me In!</button></li>
+					</ul>				</div>
 			</form><!--end c-form--stacked-->
 		</div><!--end c-box__body-->
 

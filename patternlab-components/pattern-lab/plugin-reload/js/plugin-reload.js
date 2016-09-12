@@ -4,7 +4,7 @@ var PluginReload = {
     
     if ('WebSocket' in window && window.WebSocket.CLOSING === 2) {
       
-      wsc = new WebSocket("ws://localhost:8000/reload");
+      wsc = new WebSocket("wss://localhost:8000/reload");
       
       // when trying to open a connection to WebSocket update the pattern lab nav bar
       wsc.onopen = function () {
